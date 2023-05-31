@@ -3,6 +3,8 @@
 This is a PyTorch implementation of "[MetricGAN+](https://arxiv.org/abs/2104.03538)" (Szu-Wei Fu, Cheng Yu, Tsun-An Hsieh, Peter Plantinga, Mirco Ravanelli, Xugang Lu, Yu Tsao, 2021 Interspeech).
 This repository is implemented only with PyTorch based on the implementation of [speechbrain](https://github.com/speechbrain/speechbrain/tree/develop/recipes/Voicebank/enhance/MetricGAN).
 
+:bell: We are pleased to announce that our related work, MetricGAN-OKD, has been accepted in **ICML23**.
+The paper and implementation coming soon. :bell:
 
 
 ## Setup Datasets
