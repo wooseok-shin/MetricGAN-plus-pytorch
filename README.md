@@ -29,9 +29,9 @@ MetricGAN+
 ```shell
 python main.py ---exp_name=exp1 --target_metric pesq
 ```
-You can also change the hyperparameters (target_metric, epochs, batch_size, hist_portion, lr, ...).
+You can change the hyperparameters (target_metric, epochs, batch_size, hist_portion, lr, ...).
 ```shell
-python main.py ---exp_name=exp2_hist0.1 --target_metric pesq --hist_portion=0.1
+python main.py ---exp_name=exp2_csig_hist0.1 --target_metric csig --hist_portion=0.1
 ```
 
 ## Testing & Inference
@@ -42,3 +42,10 @@ python inference.py --weight_path results/exp1/model/ --weight_file best_model.p
 
 ## Results and Checkpoints
 We provide results and checkpoints of MetricGAN+ on the VoiceBank-DEMAND dataset.
+
+| Target Metric       | PESQ | CSIG | CBAK | COVL |
+|---------------------|------|------|------|------|
+| PESQ - trial 1      | 3.13 | 4.13 | 3.03 | 3.61 |
+| PESQ - trial 2      | 3.08 | 4.07 | 3.15 | 3.56 |
+| PESQ - trial 3      | 3.15 | 4.09 | 3.16 | 3.61 |
+| CSIG - trial 1      | 3.12 | 4.26 | 3.07 | 3.68 |
