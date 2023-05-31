@@ -6,7 +6,7 @@ This repository is implemented only with PyTorch based on the implementation of 
 
 
 ## Setup Datasets
-**VoiceBank-DEMAND:** Please, download clean_trainset_28spk_wav.zip, noisy_trainset_28spk_wav.zip, clean_testset_wav.zip, and noisy_testset_wav.zip from [here](https://datashare.ed.ac.uk/handle/10283/2791)
+**VoiceBank-DEMAND:** Please download clean_trainset_28spk_wav.zip, noisy_trainset_28spk_wav.zip, clean_testset_wav.zip, and noisy_testset_wav.zip from [here](https://datashare.ed.ac.uk/handle/10283/2791)
 and extract them to `data/VCTK_DEMAND/train(or test)/clean(or noisy)`.
 
 
@@ -49,3 +49,9 @@ We provide results and checkpoints of MetricGAN+ on the VoiceBank-DEMAND dataset
 | PESQ - trial 2      | 3.08 | 4.07 | 3.15 | 3.56 |
 | PESQ - trial 3      | 3.15 | 4.09 | 3.16 | 3.61 |
 | CSIG - trial 1      | 3.12 | 4.26 | 3.07 | 3.68 |
+
+Please download the weights file from [our release](https://github.com/wooseok-shin/MetricGAN-plus-pytorch/releases/tag/v1.weights), 
+put them in your path, and run inference.
+```shell
+python inference.py --weight_path your/path/ --weight_file PESQ-GAN_trial1.pth
+```
