@@ -1,0 +1,7 @@
+tqdm
+joblib
+numpy
+scipy
+pesq
+soundfile
+librosa
