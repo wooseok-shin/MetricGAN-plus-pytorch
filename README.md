@@ -18,8 +18,12 @@ We verified that this is supported in PyTorch versions 1.7.1 to 1.10.1.
 
 ## Setup Datasets
 **VoiceBank-DEMAND:** Please download clean_trainset_28spk_wav.zip, noisy_trainset_28spk_wav.zip, clean_testset_wav.zip, and noisy_testset_wav.zip from [here](https://datashare.ed.ac.uk/handle/10283/2791)
-and extract them to `data/VCTK_DEMAND/train(or test)/clean(or noisy)`.
+and extract them to `data/VCTK_DEMAND_48k/train(or test)/clean(or noisy)`.
 
+The sample rate of original dataset is 48kHz. We downsample the audio files from 48kHz to 16kHz as follows.
+```shell
+python downsample.py
+```
 
 The final folder structure should look like this:
 ```none
