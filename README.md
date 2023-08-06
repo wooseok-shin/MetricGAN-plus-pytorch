@@ -42,11 +42,11 @@ MetricGAN+
 
 ## Training
 ```shell
-python main.py ---exp_name=exp1 --target_metric pesq
+python main.py --exp_name=exp1 --target_metric pesq
 ```
 You can change the hyperparameters (target_metric, epochs, batch_size, hist_portion, lr, ...).
 ```shell
-python main.py ---exp_name=exp2_csig_hist0.1 --target_metric csig --hist_portion=0.1
+python main.py --exp_name=exp2_csig_hist0.1 --target_metric csig --hist_portion=0.1
 ```
 
 ## Testing & Inference
