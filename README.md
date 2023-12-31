@@ -76,11 +76,11 @@ python inference.py --weight_path your/path/ --weight_file PESQ-GAN_trial1.pth
 ## Citation
 If you find this project beneficial for your research, we kindly request your consideration in exploring our related work, [MetricGAN-OKD](https://proceedings.mlr.press/v202/shin23b.html), and citing it accordingly.
 
-  @inproceedings{shin2023metricgan,
-    title={MetricGAN-OKD: multi-metric optimization of MetricGAN via online knowledge distillation for speech enhancement},
-    author={Shin, Wooseok and Lee, Byung Hoon and Kim, Jin Sob and Park, Hyun Joon and Han, Sung Won},
-    booktitle={International Conference on Machine Learning},
-    pages={31521--31538},
-    year={2023},
-    organization={PMLR}
-  }
+    @inproceedings{shin2023metricgan,
+      title={MetricGAN-OKD: multi-metric optimization of MetricGAN via online knowledge distillation for speech enhancement},
+      author={Shin, Wooseok and Lee, Byung Hoon and Kim, Jin Sob and Park, Hyun Joon and Han, Sung Won},
+      booktitle={International Conference on Machine Learning},
+      pages={31521--31538},
+      year={2023},
+      organization={PMLR}
+    }
